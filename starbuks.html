@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbuks Coffee Company</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        button.rounded-pill.btn:hover{
+            background-color: #0e382c;
+        }
+        .card div.card-img-overlay{
+            background-image: linear-gradient(to top, rgb(0, 0, 0, 0.5), transparent);
+        }
+        .card div.card-img-overlay:hover{
+            background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.5));
+        }
+        ul{
+            list-style: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://www.starbucks.in/assets/icon/logo.png" alt=""></a>
+            <form class="d-flex d-md-none" role="search">
+                <input class="form-control me-2" type="search" placeholder="Looking for something specific?" aria-label="Search">
+                <button class="btn btn-success" type="submit" title="search"><i  class="bi bi-search"></i></button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gift</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pay</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Store</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex d-none d-md-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Looking for something specific?" aria-label="Search">
+                <button class="btn btn-success" type="submit" title="Search"><i  class="bi bi-search"></i></button>
+            </form>
+        </div>
+    </nav>
+    
+    <!-- main -->
+    <main class="bg-light bg-gradient">
+
+        <div class="container-fluid d-flex justify-content-around align-items-center text-white p-3 mb-2" style="background-color: #0e382c;">
+            <p class="fs-3">Keep visiting and earing rewards!</p>
+            <button class="btn btn-outline-light">Know More</button>
+        </div>
+
+        <div class="my-2 bg-white p-3">
+            <div class="d-flex justify-content-between">
+                <h2>Barista Recommends</h2>
+                <button class="btn btn-white">View more</button>
+            </div>
+
+            <div class="container d-flex gap-4 overflow-x-auto my-3">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-lg p-3">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/webP/112570.webp" class="img-fluid rounded" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="border border-success d-flex justify-content-center align-items-center" style="height: 20px; width: 20px;"><div class="bg-success rounded-pill" style="height: 10px; width: 10px;"></div></div>
+                                <h5 class="card-title">Strawberry Milkshake</h5>
+                                <p class="card-text"><small class="text-body-secondary d-none d-md-block">TALL(Tall Strawberry Minkshake) PER SERVE (354ml)- 569Kcal</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-3 mx-4 flex-sm-column flex-md-row">
+                        <h4>$340</h4>
+                        <button class="btn btn-success rounded-pill px-4 shadow">Add item</button>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-lg p-3">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/webP/112570.webp" class="img-fluid rounded" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="border border-success d-flex justify-content-center align-items-center" style="height: 20px; width: 20px;"><div class="bg-success rounded-pill" style="height: 10px; width: 10px;"></div></div>
+                                <h5 class="card-title">Strawberry Milkshake</h5>
+                                <p class="card-text"><small class="text-body-secondary d-none d-md-block">TALL(Tall Strawberry Minkshake) PER SERVE (354ml)- 569Kcal</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-3 mx-4 flex-sm-column flex-md-row">
+                        <h4>$340</h4>
+                        <button class="btn btn-success rounded-pill px-4  shadow">Add item</button>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-lg p-3">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/webP/112570.webp" class="img-fluid rounded" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="border border-success d-flex justify-content-center align-items-center" style="height: 20px; width: 20px;"><div class="bg-success rounded-pill" style="height: 10px; width: 10px;"></div></div>
+                                <h5 class="card-title">Strawberry Milkshake</h5>
+                                <p class="card-text"><small class="text-body-secondary d-none d-md-block">TALL(Tall Strawberry Minkshake) PER SERVE (354ml)- 569Kcal</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-3 mx-4 flex-sm-column flex-md-row">
+                        <h4>$340</h4>
+                        <button class="btn btn-success rounded-pill px-4  shadow">Add item</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-3 p-3 px-5">
+            <div class="d-flex justify-content-between">
+                <h2>Handcrafted Curations</h2>
+                <button class="btn btn-light">View more</button>
+            </div>
+            <div class="container-fluid d-flex gap-5 overflow-x-auto my-3">
+                <div class="d-flex flex-column align-items-center justify-content-around">
+                    <div class="card mb-3 rounded-circle border-success border-2">
+                        <img src="https://www.starbucks.in/assets/icon/Bestseller.webp" class="rounded-circle" alt="..." height="100px">
+                    </div>
+                    <p class="">BestSeller</p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-around">
+                    <div class="card mb-3 rounded-circle border-success border-2">
+                        <img src="https://www.starbucks.in/assets/icon/Drinks.webp" class="rounded-circle" alt="..." height="100px">
+                    </div>
+                    <p class="">Drinks</p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-around">
+                    <div class="card mb-3 rounded-circle border-success border-2">
+                        <img src="https://www.starbucks.in/assets/icon/Food.webp" class="rounded-circle" alt="..." height="100px">
+                    </div>
+                    <p class="">Food</p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-around">
+                    <div class="card mb-3 rounded-circle border-success border-2">
+                        <img src="https://www.starbucks.in/assets/icon/Bestseller.webp" class="rounded-circle" alt="..." height="100px">
+                    </div>
+                    <p class="">BestSeller</p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-around">
+                    <div class="card mb-3 rounded-circle border-success border-2">
+                        <img src="https://www.starbucks.in/assets/icon/Drinks.webp" class="rounded-circle" alt="..." height="100px">
+                    </div>
+                    <p class="">Drinks</p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-around">
+                    <div class="card mb-3 rounded-circle border-success border-2">
+                        <img src="https://www.starbucks.in/assets/icon/Food.webp" class="rounded-circle" alt="..." height="100px">
+                    </div>
+                    <p class="">Food</p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-around">
+                    <div class="card mb-3 rounded-circle border-success border-2">
+                        <img src="https://www.starbucks.in/assets/icon/Bestseller.webp" class="rounded-circle" alt="..." height="100px">
+                    </div>
+                    <p class="">BestSeller</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-3 p-3 px-5">
+            <div class="d-flex justify-content-between">
+                <h2>Latest Offerings</h2>
+                <button class="btn btn-light">View more</button>
+            </div>
+            <div class="container d-flex gap-4 overflow-x-auto my-3">
+                <div class="card mb-3">
+                    <div class="column g-0">
+                        <div class="col-lg">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/M114859.webp" class="img-fluid rounded-top" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="border border-success d-flex justify-content-center align-items-center" style="height: 20px; width: 20px;"><div class="bg-success rounded-pill" style="height: 10px; width: 10px;"></div></div>
+                                <h5 class="card-title">Vienna Creamy Latte</h5>
+                                <p class="card-text"><small class="text-body-secondary d-none d-md-block">SHORT(Short Vienna Creamy Latte) 330 Kcal</small></p>
+                                <p class="card-text"><small class="text-body-secondary d-none d-lg-block">Introducing the all-new Starbucks Vinnese Creamy Latte, an exquisite new take on the classic Viennese coffee.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-3 mx-4 flex-sm-column flex-md-row">
+                        <h4>$141.75</h4>
+                        <button class="btn btn-success rounded-pill px-4 shadow">Add item</button>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="column g-0">
+                        <div class="col-lg">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/114936.webp" class="img-fluid rounded-top" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="border border-success d-flex justify-content-center align-items-center" style="height: 20px; width: 20px;"><div class="bg-success rounded-pill" style="height: 10px; width: 10px;"></div></div>
+                                <h5 class="card-title">Vienna Creamy Latte</h5>
+                                <p class="card-text"><small class="text-body-secondary d-none d-md-block">SHORT(Short Vienna Creamy Latte) 330 Kcal</small></p>
+                                <p class="card-text"><small class="text-body-secondary d-none d-lg-block">Introducing the all-new Starbucks Vinnese Creamy Latte, an exquisite new take on the classic Viennese coffee.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-3 mx-4 flex-sm-column flex-md-row">
+                        <h4>$141.75</h4>
+                        <button class="btn btn-success rounded-pill px-4  shadow">Add item</button>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="column g-0">
+                        <div class="col-lg">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/M114873.webp" class="img-fluid rounded-top" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="border border-success d-flex justify-content-center align-items-center" style="height: 20px; width: 20px;"><div class="bg-success rounded-pill" style="height: 10px; width: 10px;"></div></div>
+                                <h5 class="card-title">Vienna Creamy Latte</h5>
+                                <p class="card-text"><small class="text-body-secondary d-none d-md-block">SHORT(Short Vienna Creamy Latte) 330 Kcal</small></p>
+                                <p class="card-text"><small class="text-body-secondary d-none d-lg-block">Introducing the all-new Starbucks Vinnese Creamy Latte, an exquisite new take on the classic Viennese coffee.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-3 mx-4 flex-sm-column flex-md-row">
+                        <h4>$141.75</h4>
+                        <button class="btn btn-success rounded-pill px-4  shadow">Add item</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-3 p-3 px-5">
+            <div class="d-flex justify-content-between">
+                <h2>Learn more about the world of coffee!</h2>
+                <button class="btn btn-light">Discover More</button>
+            </div>
+            <div class="container d-flex gap-4 my-3 p-5">
+                <div class="card card-bg-dark rounded">
+                    <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/coffee_culture_blog_web1_c6e691b286.jpg" class="card-image rounded" alt="">
+                    <div class="card-img-overlay rounded p-4 d-md-flex flex-column flex-grow-0 justify-content-between">
+                        <button class="btn btn-sm btn-outline-success bg-light text-dark d-none d-lg-block" style="width: fit-content;">Coffee Culture</button>
+                        <div>
+                            <h3 class="card-title text-light">How Coffee Stirred Revels &amp; Rebels</h3>
+                            <p class="card-text text-light d-none d-md-block">Delighted by the jovial character of coffee, everyone was inspired to bring it home - leading to some of the most crucial firsts.</p>
+                            <button class="btn btn-light px-5">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="d-flex flex-column container-fluid"  style="background-color: #0e382c;">
+        <div class="container-fluid d-md-flex flex-row justify-content-around align-items-start py-5 text-light gap-5">
+            <img src="https://www.starbucks.in/assets/icon/logo.png" alt="logo" class="py-3">
+            <div class="d-flex flex-column py-3">
+                <h3>About Us</h3>
+                <div class="d-flex flex-column py-3">
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Our Heritage</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Coffeehouse</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Our company</a>
+                </div>
+            </div>
+            <div class="d-flex flex-column py-3">
+                <h3>Responsiblites</h3>
+                <div class="d-flex flex-column py-3">
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Community</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Ethical Sourcing</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Environmental Strwardship</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Diversity</a>
+                </div>
+            </div>
+            <div class="d-flex flex-column py-3">
+                <h3>Quick Links</h3>
+                <div class="d-flex flex-column py-3">
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Privacy Policy</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Starbucks Rewards Day Offer</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Delivery</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Season's Gifting</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Careers</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">FAQs</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Offer for Bevrage Subscription at Starbucks</a>
+                    <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Terms and Condition</a>
+                </div>
+            </div>
+            <div class="d-flex flex-column py-3">
+                <h3>Social Media</h3>
+                <ul class="d-flex gap-5 justify-content-around">
+                    <a href="" class="link-light my-3 fs-5 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="link-light my-3 fs-5 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="link-light my-3 fs-5 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover"><i class="bi bi-twitter"></i></a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="d-md-flex container-fluid justify-content-between align-items-center text-light border-top px-5 gap-5">
+            <div class="d-flex flex-row py-3 justify-content-around gap-5">
+                <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Web Accessiblity</a>
+                <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Privacy Statement</a>
+                <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Terms of Use</a>
+                <a href="" class="link-light my-3 link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover">Contact Us</a>
+            </div>
+            <p>&copy; 2024 Starbucks Coffee Company</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
